@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background: #3d64e6;
@@ -32,46 +32,52 @@ body {
   border: none;
   border-radius: 1.5em;
 }
-.search-wrapper input{
-    font-size: 1em;
-    padding: 0 0.62em;
-    border: none;
-    border-bottom: 2px solid #3d64e6;
-    outline: none;
-    color: #222a43;
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  border-bottom: 2px solid #3d64e6;
+  outline: none;
+  color: #222a43;
 }
-#result{
-    margin-top: 1.25em;
+#result {
+  margin-top: 1.25em;
 }
-.container .flag-img{
-    display: block;
-    width: 45%;
-    min-width: 7.5em;
-    margin: 1.8em auto 1.2em auto;
+.container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
 }
-.container h2{
-    font-weight: 600;
-    color: #222a43;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 1.8em;
+.container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
 }
-.data-wrapper{
-    margin-bottom: 1em;
-    letter-spacing: 0.3px;
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
 }
-.container h4{
-    display: inline;
-    font-weight: 500;
-    color: #222a43;
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
 }
-.container span{
-    color: #5d6274;
+.container span {
+  color: #5d6274;
 }
-.container h3{
-    text-align: center;
-    color: red;
-    font-size: 1.2em;
-    font-weight: 400;
+.container h3 {
+  text-align: center;
+  color: red;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .search-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
